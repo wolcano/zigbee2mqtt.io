@@ -15,6 +15,10 @@ It can only be bound to 1 group at a time.
 
 Note that < zigbee2mqtt 1.4 automatically bound this device to group 99.
 If you want to bind it to a different group you first have to unbind it from group 99.
+
+### Pairing
+Pair the remote to Zigbee2mqtt by holding it close to the coordinator and
+pressing the button next to the battery 4 times. The red light on the remote will now flash a few times.
 `,
     },
     {
@@ -284,7 +288,7 @@ small pin or paperclip to push the reset button once.
     {
         vendor: 'IKEA',
         supports: ['brightness'],
-        notModel: ['E1524', 'ICPSHC24-10EU-IL-1', 'ICPSHC24-30EU-IL-1', 'ICTC-G-1'],
+        notModel: ['E1524', 'E1743', 'ICPSHC24-10EU-IL-1', 'ICPSHC24-30EU-IL-1', 'ICTC-G-1'],
         note: `
 ### Pairing
 Factory reset the light bulb ([video](https://www.youtube.com/watch?v=npxOrPxVfe0)).
